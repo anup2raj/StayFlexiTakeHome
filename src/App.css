@@ -1,8 +1,34 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  /* height: 624px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.Welcome{
+  display: flex;
+  flex-direction: column;
+  /* height: 624px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.App h1, .App p, h3{
+  /* color:#01A8D8; */
+  color:#192020;
+  /* font-weight: bold; */
   text-align: center;
 }
 
-.App-logo {
+.App button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color:rgb(226, 226, 219);
+}
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -22,7 +48,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} 
 
 .App-link {
   color: #61dafb;
@@ -35,4 +61,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

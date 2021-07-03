@@ -1,0 +1,27 @@
+.form-row{
+    display: flex;
+    margin: 5px auto;
+}
+
+.form-group{
+    margin: auto 2.5px;
+}
+
+.btn{
+    align-items: center;
+}
+
+form .btn{
+    margin: auto 40%;
+}
+
+@media (max-width: 220px) {
+    .form-row{
+        display: block;
+    }
+
+    .form-group{
+        margin: 5px 2.5px;
+    }
+    
+}
